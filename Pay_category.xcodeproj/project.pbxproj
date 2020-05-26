@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -16,9 +16,10 @@
 		4894145C247CEFA1004F2275 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4894145B247CEFA1004F2275 /* main.m */; };
 		48941466247CEFA1004F2275 /* Pay_categoryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 48941465247CEFA1004F2275 /* Pay_categoryTests.m */; };
 		48941471247CEFA1004F2275 /* Pay_categoryUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 48941470247CEFA1004F2275 /* Pay_categoryUITests.m */; };
-		48941488247CF7CA004F2275 /* CTMediator+Pay.m in Sources */ = {isa = PBXBuildFile; fileRef = 48941487247CF7CA004F2275 /* CTMediator+Pay.m */; };
+		4894148B247D016F004F2275 /* CTMediator+Pay.m in Sources */ = {isa = PBXBuildFile; fileRef = 4894148A247D016F004F2275 /* CTMediator+Pay.m */; };
 		762F6C3FDC7D0869B9EF179B /* Pay_category_Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43A34FED369AECE1B53A40D7 /* Pay_category_Extension.swift */; };
 		842ED82E56DE8EAE52E78EB8 /* Target_Pay_category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D3AE2510860BD3A3F7A9C8C /* Target_Pay_category.swift */; };
+		84FDEF4B827B910F6853390C /* Pods_Pay_category.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2042F3FD1DD4DDFA7601B4F /* Pods_Pay_category.framework */; };
 		C6423CD7EECA70D9FA639797 /* DemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 711F4BBF6009B46ED326F3F7 /* DemoViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -59,11 +60,14 @@
 		4894146C247CEFA1004F2275 /* Pay_categoryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Pay_categoryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		48941470247CEFA1004F2275 /* Pay_categoryUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Pay_categoryUITests.m; sourceTree = "<group>"; };
 		48941472247CEFA1004F2275 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		48941486247CF7CA004F2275 /* CTMediator+Pay.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CTMediator+Pay.h"; sourceTree = "<group>"; };
-		48941487247CF7CA004F2275 /* CTMediator+Pay.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "CTMediator+Pay.m"; sourceTree = "<group>"; };
+		48941489247D016F004F2275 /* CTMediator+Pay.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CTMediator+Pay.h"; sourceTree = "<group>"; };
+		4894148A247D016F004F2275 /* CTMediator+Pay.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "CTMediator+Pay.m"; sourceTree = "<group>"; };
+		508B3BA2D1AE6B7D9570C520 /* Pods-Pay_category.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pay_category.release.xcconfig"; path = "Target Support Files/Pods-Pay_category/Pods-Pay_category.release.xcconfig"; sourceTree = "<group>"; };
 		5D3AE2510860BD3A3F7A9C8C /* Target_Pay_category.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Target_Pay_category.swift; path = Source/Target/Target_Pay_category.swift; sourceTree = "<group>"; };
 		711F4BBF6009B46ED326F3F7 /* DemoViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DemoViewController.swift; path = Source/DemoViewController.swift; sourceTree = "<group>"; };
-		A659F2B968C0A4E5C659C82D /* Pay_category.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Pay_category.podspec; path = ../Pay_category.podspec; sourceTree = "<group>"; };
+		A659F2B968C0A4E5C659C82D /* Pay_category.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Pay_category.podspec; path = ../Pay_category.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B2042F3FD1DD4DDFA7601B4F /* Pods_Pay_category.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Pay_category.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E96216DABFC00DCD2AA2946C /* Pods-Pay_category.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pay_category.debug.xcconfig"; path = "Target Support Files/Pods-Pay_category/Pods-Pay_category.debug.xcconfig"; sourceTree = "<group>"; };
 		FDD740BEB8C3A32E20AE8DB0 /* Pay_category_Extension.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Pay_category_Extension.podspec; path = ../Pay_category_Extension.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -72,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84FDEF4B827B910F6853390C /* Pods_Pay_category.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -92,6 +97,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		28A765E57084FABAA83F0EAD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E96216DABFC00DCD2AA2946C /* Pods-Pay_category.debug.xcconfig */,
+				508B3BA2D1AE6B7D9570C520 /* Pods-Pay_category.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		4894143D247CEF9E004F2275 = {
 			isa = PBXGroup;
 			children = (
@@ -99,6 +113,8 @@
 				48941464247CEFA1004F2275 /* Pay_categoryTests */,
 				4894146F247CEFA1004F2275 /* Pay_categoryUITests */,
 				48941447247CEF9E004F2275 /* Products */,
+				28A765E57084FABAA83F0EAD /* Pods */,
+				EC2714093B9B7B5F9DF3E22A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -156,8 +172,8 @@
 		48941482247CF731004F2275 /* Pay_category */ = {
 			isa = PBXGroup;
 			children = (
-				48941486247CF7CA004F2275 /* CTMediator+Pay.h */,
-				48941487247CF7CA004F2275 /* CTMediator+Pay.m */,
+				48941489247D016F004F2275 /* CTMediator+Pay.h */,
+				4894148A247D016F004F2275 /* CTMediator+Pay.m */,
 			);
 			path = Pay_category;
 			sourceTree = "<group>";
@@ -187,6 +203,14 @@
 			name = Extension;
 			sourceTree = "<group>";
 		};
+		EC2714093B9B7B5F9DF3E22A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B2042F3FD1DD4DDFA7601B4F /* Pods_Pay_category.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -194,9 +218,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 48941475247CEFA1004F2275 /* Build configuration list for PBXNativeTarget "Pay_category" */;
 			buildPhases = (
+				607E3109FCB7A911BFE77454 /* [CP] Check Pods Manifest.lock */,
 				48941442247CEF9E004F2275 /* Sources */,
 				48941443247CEF9E004F2275 /* Frameworks */,
 				48941444247CEF9E004F2275 /* Resources */,
+				1BEC9E773293E3032B8B1EF1 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -312,6 +338,48 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1BEC9E773293E3032B8B1EF1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Pay_category/Pods-Pay_category-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Pay_category/Pods-Pay_category-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Pay_category/Pods-Pay_category-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		607E3109FCB7A911BFE77454 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Pay_category-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		48941442247CEF9E004F2275 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -321,7 +389,7 @@
 				4894144B247CEF9E004F2275 /* AppDelegate.m in Sources */,
 				4894145C247CEFA1004F2275 /* main.m in Sources */,
 				4894144E247CEF9F004F2275 /* SceneDelegate.m in Sources */,
-				48941488247CF7CA004F2275 /* CTMediator+Pay.m in Sources */,
+				4894148B247D016F004F2275 /* CTMediator+Pay.m in Sources */,
 				842ED82E56DE8EAE52E78EB8 /* Target_Pay_category.swift in Sources */,
 				C6423CD7EECA70D9FA639797 /* DemoViewController.swift in Sources */,
 				762F6C3FDC7D0869B9EF179B /* Pay_category_Extension.swift in Sources */,
@@ -491,6 +559,7 @@
 		};
 		48941476247CEFA1004F2275 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E96216DABFC00DCD2AA2946C /* Pods-Pay_category.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -502,12 +571,14 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.cxd.Pay-category";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
 		48941477247CEFA1004F2275 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 508B3BA2D1AE6B7D9570C520 /* Pods-Pay_category.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -519,6 +590,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.cxd.Pay-category";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;

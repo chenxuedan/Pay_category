@@ -6,11 +6,14 @@
 //  Copyright © 2020 cxd. All rights reserved.
 //
 
-
+#import <CTMediator/CTMediator.h>
 
 NS_ASSUME_NONNULL_BEGIN
 
 @interface CTMediator (Pay)
+
+- (UIViewController *)Pay_ViewController;
+
 
 @end
 

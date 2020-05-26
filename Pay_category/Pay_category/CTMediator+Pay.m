@@ -10,4 +10,9 @@
 
 @implementation CTMediator (Pay)
 
+- (UIViewController *)Pay_ViewController {
+ 
+    return [self performTarget:@"PayManeger" action:@"viewController" params:nil shouldCacheTarget:NO];
+}
+
 @end
